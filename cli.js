@@ -53,3 +53,5 @@ if (args.z) {
 if (args.d) {
 	day = args.d;
 }
+
+const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=' + latitude + '&longitude=' + longitude + '&daily=precipitation_hours&current_weather=true&timezone=' + timezone_url);
