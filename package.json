@@ -13,6 +13,7 @@
   "bin": {
     "galosh.js": "./cli.js"
   },
+  "type": "module",
   "author": "Cameron Burhans",
   "license": "GPL-3.0-or-later",
   "bugs": {
