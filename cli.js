@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
 import minimist from "minimist";
+import moment from "moment-timezone";
+
 
 const args = minimist(process.argv.slice(2));
 
